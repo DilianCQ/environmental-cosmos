@@ -1,7 +1,6 @@
 # EnvironmentalCosmos
 
-Proyecto descripcion 
-
+este es el front que se conecta al back para el proyecto cosmo ambiental
 
 ## Development server
 
