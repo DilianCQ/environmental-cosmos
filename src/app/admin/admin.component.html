@@ -1,0 +1,19 @@
+<div class="login-box">
+    <h2>ASIGNE PUNTOS</h2>
+    <form>
+        <div class="user-box">
+            <input [(ngModel)]="username_input" name="username_input" type="text" required="">
+            <label style="text-align: center;">EMAIL A DAR PUNTOS</label>
+        </div>
+        <div class="user-box">
+            <input [(ngModel)]="puntos" name="puntos" type="number" required="">
+            <label style="text-align: center;">PUNTOS</label>
+        </div>
+        <div style="text-align: center;">
+            <a (click)="asignarpuntos()">
+                <span></span>
+                ASIGNAR PUNTOS
+            </a>
+        </div>
+    </form>
+</div>

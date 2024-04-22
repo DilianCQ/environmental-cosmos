@@ -1,0 +1,43 @@
+<div class="login-box">
+    <h2>COSMO AMBIENTAL</h2>
+    <form>
+        <div class="user-box">
+            <input [(ngModel)]="username_input" name="username_input" type="text" required="">
+            <label style="text-align: center;">Username</label>
+        </div>
+        <div class="user-box">
+            <input [(ngModel)]="password_input" name="password_input" type="password" required="">
+            <label style="text-align: center;">Contraseña</label>
+        </div>
+        <div style="text-align: center;">
+            <a (click)="iniciarSesion()">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                INICIE SESSION
+            </a>
+        </div>
+        <h4 style="text-align: center;">
+            -------------------- o --------------------
+        </h4>
+        <div style="text-align: center;">
+            <a href="register">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                REGISTRESE
+            </a>
+        </div>
+        <h4 style="text-align: center;">
+            -------------------- o --------------------
+        </h4>
+        <div style="text-align: center;">
+            <a href="loginadmin">
+                <span></span>
+                INGRESE COMO ADMIN
+            </a>
+        </div>
+    </form>
+</div>
